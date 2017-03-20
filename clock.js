@@ -1,9 +1,8 @@
-alert("hello kitty")
 
-//lets display the current time
+
 var d, h, m, s, color;
 function displayTime() {
-	d = new Date(); //new data object
+	d = new Date(); 
 	h = d.getHours();
 	m = d.getMinutes();
 	s = d.getSeconds();
